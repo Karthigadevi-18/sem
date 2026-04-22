@@ -1,5 +1,7 @@
-from calculator import add,sub
+from calculator import add, sub
+
 def test_add():
-  assert (2,3)==5
+  assert add(2, 3) == 5
+
 def test_sub():
-  assert(4,2)==2
+  assert sub(4, 2) == 2
